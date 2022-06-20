@@ -29,7 +29,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter <RecyclerViewAdapt
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerViewAdapter.ViewHolder holder, int position) {
         Model model = movies.get(position);
         holder.day.setText(model.getDay());
         holder.lesson1.setText(model.getLesson1());
@@ -43,6 +43,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter <RecyclerViewAdapt
         holder.lesson5.setText(model.getLesson5());
         holder.teacher5.setText(model.getTeacher5());
     }
+
 
     @Override
     public int getItemCount() {

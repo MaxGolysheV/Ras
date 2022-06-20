@@ -1,7 +1,6 @@
 package com.example.raspisanie;
 
 public class Model {
-
     private String day;
     private String lesson1;
     private String teacher1;
