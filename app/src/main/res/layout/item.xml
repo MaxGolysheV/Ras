@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/day"
+                android:text="Day"
+                android:layout_width="wrap_content"
+                android:background="@drawable/border"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lesson1"
+                android:layout_width="175dp"
+                android:text="lesson1"
+                android:background="@drawable/border"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/teacher1"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:text="teacher1"
+                android:layout_width="150dp"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lesson2"
+                android:layout_width="250dp"
+                android:text="lesson2"
+                android:background="@drawable/border"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/teacher2"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:text="teacher2"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lesson3"
+                android:layout_width="175dp"
+                android:text="lesson3"
+                android:background="@drawable/border"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/teacher3"
+                android:layout_height="match_parent"
+                android:layout_width="150dp"
+                android:text="teacher3"
+                android:background="@drawable/border"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lesson4"
+                android:layout_width="175dp"
+                android:text="lesson4"
+                android:background="@drawable/border"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/teacher4"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:text="teacher4"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lesson5"
+                android:layout_width="175dp"
+                android:text="lesson5"
+                android:background="@drawable/border"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/teacher5"
+                android:layout_height="match_parent"
+                android:layout_width="150dp"
+                android:text="teacher5"
+                android:background="@drawable/border"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
